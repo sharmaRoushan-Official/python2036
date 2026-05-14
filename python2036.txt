@@ -1,0 +1,116 @@
+>>1). What is Python?
+---------------------------------
+C-
+C++-
+Java-
+JavaScript-
+Ruby-
+------------------------------------------------------------------------------
+Python is a high-level, general-purpose, interpreted programming language that is designed to be easy to read, easy to write, and easy to learn.
+
+--------------------------------------------------------------------------------
+Python supports multiple programming styles such as:
+
+* Procedural Programming
+* Object-Oriented Programming(OOPs)
+* Functional Programming
+-------------------------------------------------------------------------------------
+
+Python is a language that helps us to communicate with computers using simple English-like syntax.
+It is widely used because it reduce development time and works in almost every domain.
+----------------------------------------------------------------------------------------
+
+hello.c
+----------------
+
+# <stdio.h>
+# <conio.h>
+
+int main(){
+
+	printf("Hello world");
+
+	return 0;
+}
+------------------------------------------------------------
+object file - hello.exe
+-------------------------------------
+hello.exe ----> Hello World
+
+
+-----------------------------------------------------------------------
+hello.py
+------------------
+print("Hello world")----> Hello world
+---------------------------------------------------------------------------
+2). Who Created Python?
+--------------------------------------------------
+
+>> Python was created by Guido Van Rossum in 1989 and officially released in 1991.
+-------------------------------------------------------------------------------------
+
+Python's name is inspired by the comedy show "Monty Python's Flying Circus", not the snake.
+---------------------------------------------------------------------------------------------
+
+>> High-Level  vs Low-Level Language.
+--------------------------------------------------------
+✅ High-Level language
+
+A high-level language is closure to human language and easier to understand.
+
+>> Python
+>> Java 
+>> C#
+>> C
+>> etc.
+----------------------------------------------------------------------------------
+>> Benefits 
+>>> Easy Syntax
+>> Faster Development
+>> Easy Debugging   -> Error --> Code not Execute -> Debug -> Remove Bug
+--------------------------------------------
+>> Bug- BedBug--
+
+---------------------------------------------------------------------------
+a = 10
+b = 20
+print(a+b) => 30   # high level language
+----------------------------------------------------------------------------------
+
+>> ✅ Low-Level language-[Machine Language]
+------------------------------------------------------------
+>> Low-Level Language are closer to machine language and difficult for humans.[No IQ]
+----------------------------------------------------------------------------------------
+Example:-
+-----------------------
+1. Assembly language
+2. Machine Code-Binary digits-[0,1]
+-----------------------------------------
+010101---> binary -13
+
+16+4+1 -> 21
+
+(21)10 ---> (010101)2
+----------------------------------------------------------------------------------------------
+Number System
+-------------------------------------------------------
+
+1. decimal Number system - 10  -> [0,1,2,3,4,5,6,7,8,9]
+2. binary Number system -> 2 -> [0,1]
+3. octal Number system -> 8 -> [0,1,2,3,4,5,6,7]
+4. Hexa-decimal number system -> 16 -> [0,1,2,3,4,5,6,7,a,b,c,d,e,f(A,B,C,D,E,F)]
+-------------------------------------------------------------------------------------------------
+
+>>> Python  Advanced---> Python Scripting
+----------------------------------------
+
+Basic to Advanced.
+----------------------------------------------------------
+45- Days --->
+----------------------------
+48-50
+---------------------------------------------------------------
+
+
+
+ 
