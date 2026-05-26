@@ -365,7 +365,206 @@ Python is required in:
 -------------------------------------------------------------------------------------------------
 
 >> Where is Python Used in Industry in Details.
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+
+Python is used in:
+
+✅ Web Development
+
+Frameworks:
+
+Django
+Flask
+
+Example:
+>Building e-commerce websites.
+>Banking portal
+>Admin Dashboards
+-----------------------------------
+
+✅ Data Science and Data Analytics
+-----------------------------------
+Python is the #1 language for data handling
+
+
+Libraries:
+
+> Pandas
+> NumPy
+> Matplotlib
+> TensorFlow
+> SciPy
+
+example:
+> analyzing sales report
+> stock marking analysis
+
+---------------------------------------
+
+✅ AL and ML
+
+Python is widely used in AI due to libraries.
+
+Libraries
+
+> TensorFlow
+> Scikit-learn
+> PyTorch
+
+------------------------------------------------
+
+✅ Automation and Scripting
+
+> netmiko 
+> paramiko
+
+Example:
+
+> autofile file organizer
+> automation for testing
+> server automation
+
+-------------------------------------------------
+
+✅ Cybersecurity and Ethical Hacking
+
+Used for
+
+> penetration testing
+> writing scripts
+> networking scanning tools
+
+
+-------------------------------------------------------------
+
+✅ IoT [Internet of Things]
+--------------------------
+
+Python can control hardware devices using:
+
+Raspberry pi
+
+-----------------------------------------------------------------------
+
+etc 
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+Python Course Content:
+---------------------------------------------------------------------------
+> 1. Python Basic
+> 2. Python Data types
+> 3. String data type
+> 4. List data type
+> 5. Tuple data type
+> 6. Set data type
+> 7. Dictionary data type
+> 8. Conditions in Python
+	> if, else, elif
+> 9. Loop
+	> Entry controlled loop
+		> for-in
+		> while
+
+		> Control loop
+			> break and continue
+	> Exit controlled loop
+		No Topic  
+		Exmpale- do-while [c,c++,java,JavaScript]
+> 10. Function in Python
+	> 1. Built-in Function
+	> 2. User-defined Function
+> 11. Exceptional Handling
+	> Try, Except, Else, Finally, raise, Assert
+> 12. OOPS [Object oriented programming structure]
+	>> class 
+	>> object
+	>> 4-Pillars of oops
+		> 1. Inheritance
+			> 1. Simple/Single Inheritance
+			> 2. Multiple Inheritance
+			> 3. Multilevel Inheritance
+			> 4. Hierarchical Inheritance
+			> 5. Hybrid Inheritance
+		> 2. Encapsulation [Wrapping of data]
+			> 1. Public
+			> 2. Private
+			> 3. Protected
+		> 3. Polymorphism
+			> Method overriding
+			> Method overloading
+		> 4. Data Abstraction
+			> from abc import ABC
+			> Abstract Base Classes
+> 13. File Handling
+	> Reading Files in Python
+		> txt, pdf, excel, doc, csv etc
+	> Writing Files in Python
+		> txt, pdf, excel, doc, csv , json etc.
+> 14. Lambda Function [Anonymous function]
+	1. Normal function
+	2. Anonymous function
+	> Lambda with map
+	> Lambda with filter
+	> Lambda with reduce
+	> Lambda with apply
+> 15. List Comprehension in Python
+> 16. Decorator in Python
+> 17. Generator in Python
+> 18. JSON in Python [JavaScript Object Notation]
+> 19. API in Python [Application Programming Interface]
+> 20. Minimal Project 
+-------------------------------------------------------------------------------------------------------------
+
+Python -> Programming Installation
+Anoconda -> IDE -> Integrated Development Environment
+
+---------------------------------------------------------------------
+1). Install Python on Windows
+-------------------------------------------
+Step:1 [Download Python]
+------------
+1. Open Browser
+2. Search Python official website
+3. Open: python.org
+4. click Downloads
+5. Download latest version(Exmaple: Python.3.14.5)
+
+----------------------------------
+2). Step2: Run Setup file
+---------------
+1. Open downloaded .exe file
+2. IMPORTANT: Tick the checkbox
+	✅ Add Python to PATH
+3. Click on install
+
+if you forget to tick "Add Python to PATH", Python will not run in CMD properly.
+---------------------------------------------------------------
+
+3). Step 3: Verify Installation
+-----------------------------------
+
+1. Open CMD
+2. Type:
+	python --version
+	pip --version
+-----------------------------------------------------
+C:\Users\User>python --version
+Python 3.14.5
+
+C:\Users\User>pip --version
+pip 26.1.1 from C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\pip (python 3.14)
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
