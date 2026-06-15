@@ -1,0 +1,83 @@
+Q1
+s = "Hello world"
+print(s)
+s =s[::-1]
+print(s)
+
+Q2
+a = ("A","Quick","Brown"," Fox"," Jump"," Over"," the"," Lazy","Dog")
+print(len(a))
+
+Q3
+b= "Carrot"
+print(b[0:2],b[4:6])
+
+Q4
+
+List	           Set
+mutable          mutable
+    []             ()
+slower	           fast
+more memory	   less memory
+
+Q5
+no,hashable element
+
+Q6
+
+Q7
+
+Q8
+3,
+append,insert,extend
+
+Q9
+4,
+remove,pop,clear,
+
+Q10
+7
+arithmetic,comparison,assignment,logical,membership,identity,boolean
+
+Q11
+
+Q12
+l =[5,11,14,7,8,3,2,5,9]
+l.sort()
+print(l)
+
+Q13
+A dictionary is a colleciton of key-value pairs
+
+Q14
+
+3
+
+Q15
+
+4
+
+Q16
+
+4
+
+Q17
+union
+
+Q18
+
+Q19
+
+Q20
+
+   set         Dictionary
+               Key-Value based
+               Key-value pair:Ordered
+    ()           {}
+    mutable    Mutable
+
+
+
+
+
+
