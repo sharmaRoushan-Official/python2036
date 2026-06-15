@@ -1,0 +1,177 @@
+Python Test 1 (Date:11/June/2026)
+
+1.Reverse a string without slicing: 
+    “Hello World” 
+ANS 
+code:s="Hello World"
+     rev=""
+     for i in s:
+        rev= i+rev
+     print(rev)
+output: dlrow olleH
+
+2.Count words in a sentence: 
+ “A Quick Brown Fox Jump Over the Lazy Dog”
+ANS
+code:s = "A Quick Brown Fox Jump Over the Lazy Dog"
+     words = s.split()
+     print(len(words))
+output: 9
+
+3. Remove duplicate characters. 
+   “Carrot” 
+ANS
+code:s = "Carrot"
+     result = ""
+     for i in s:
+         if i not in result:
+               result += i
+output:Carot
+
+4. Difference between List and Set
+ANS
+List	                    Set
+Ordered collection	    Unordered collection
+Duplicate values allowed    Duplicate values not allowed
+Uses [] brackets	    Uses {} brackets
+Indexing possible	    Indexing not possible
+
+5. Can sets contain lists?
+ANS
+No.
+Because list is mutable (changeable) and set accepts only immutable values.
+Reason:
+Wrong:
+s = {[1,2,3]}
+Correct:
+s = {(1,2,3)}
+
+6. Why sets are faster?
+ANS
+a. Sets use hashing
+b. Searching is very fast
+c. Duplicate values are automatically removed
+
+
+7. Difference between remove() and discard()
+ANS
+remove()	                discard()
+Gives error if item not found	Does not give error
+Used when item surely exists	Safer to use
+Example:
+s = {1,2,3}
+s.remove(2)
+s.discard(5)
+
+8.  How many methods to insert elements in the list? Total Method?
+ANS
+1. append()
+2. insert()
+3. extend()
+
+9.  How many methods to delete elements in the lists? 
+ANS
+1. remove()
+2. pop()
+3. clear()
+4. del
+
+10. How many Operators in Python Write their name in Explain?
+ANS
+IN python we have seven types of operator 
+1. Arithmetic Operators
+2. Comparison Operators
+3. Assignment Operators
+4. Logical Operators
+5. Bitwise Operators
+6. Membership Operators
+7. Identity Operators
+
+11. Write Precedence Rule of arithmetic in Python ?
+ANS
+1. Parentheses ()
+2. Exponent **
+3. Multiplication/Division * / // %
+4. Addition/Subtraction + -
+
+12.  How to sort elements in list? 
+     [5,11,14,7,8,3,2,5,9]
+ANS
+l = [5,11,14,7,8,3,2,5,9]
+l.sort()
+print(l)
+Output:
+[2,3,5,5,7,8,9,11,14]
+
+13. What is Dictionary?
+ANS
+Dictionary stores data in key-value pairs.
+Example:
+d = {"name":"Damini", "age":21}
+
+14. How many methods to create dictionary?
+ANS
+Total method to create dictionary are three:
+1. Using {}
+2. Using dict()
+3. Using from keys()
+
+15.  How many methods to access value in dictionary?
+ANS
+Total method to accessing values in dictionary are five :
+1. Using key
+2. get()
+3. keys()
+4. values()
+5. items()
+
+16. How many methods to delete elements in dictionary?
+ANS
+Total methods to delete elements in dictionary are four:
+1. pop()
+2. pop item()
+3. clear()
+4. del
+
+17. How to perform mathematical operations in sets write method name?
+ANS
+1. union()
+2. intersection()
+3. difference()
+4. symmetric difference()
+
+Example:
+a = {1,2,3}
+b = {3,4,5}
+print(a. Union(b))
+print(a. Intersection(b))
+
+
+18. What is packing variable in tuple? Explain using example? 
+ANS
+Packing means storing multiple values in one tuple.
+Example:
+t = 1,2,3
+print(t)
+Output:
+(1,2,3)
+
+
+19. What is unpacking variables in tuple? Explain using example?
+ANS
+Unpacking means storing tuple values into separate variables.
+Example:
+t = (1,2,3)
+a,b,c = t
+print(a)
+print(b)
+print(c)
+
+
+20. Difference between Set and Dictionary
+ANS
+Set                             Dictionary
+Stores only values	        Stores key-value pairs
+No keys	                        Keys are compulsory
+Duplicate values not allowed	Duplicate keys not allowed
+  
