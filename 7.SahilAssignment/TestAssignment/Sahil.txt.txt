@@ -1,0 +1,124 @@
+1. Reverse a string without slicing: 
+>> “Hello World”
+ans:-
+s=" Hello World "
+print(reverse_s)
+
+2. Count words in a sentence: 
+>> “A Quick Brown Fox Jump Over the Lazy Dog”
+ans:-
+s= 'A Quick Brown Fox Jump Over the Lazy Dog'
+a=s.split()
+count=len(a)
+print(count)
+
+
+3. Remove duplicate characters. 
+>> “Carrot” 
+ans:- 
+s = "Carrot"
+result = ""
+for ch in s:
+if ch not in result
+result += ch
+print(result)
+
+4.What is difference between lists and sets?
+ans:-
+list:-
+syntax []
+index supported
+it is hashable
+allow duplicate value
+
+sets:-
+syntax{}
+not supported
+set is unhashable
+unorderd value are store
+
+5. Can sets contains lists? If Yes How If no why?
+ans:-
+no
+because set is store immutautable element 
+
+6. Why sets are faster?
+ans:- because duplicate value are automatically remove
+
+7. Difference between remove () and discard ()
+ans:-
+remove():-
+remove use to remove element.
+when element not exist that time remove() shows error.
+
+discard():-
+use for remove element.
+when element not exist that time discard() do not show error
+
+8. How many methods to insert elements in the list? Total Method? 
+ans:- 3
+
+9. How many methods to delete elements in the lists? Total Method? 
+ans:- 5
+
+10. How many Operators in Python Write their name in Explain?
+ans:- 7
+artithematic,relational,assignment,logical,identity,bitwise,identity operator
+
+11. Write precedence Rule of arithmetic in Python?
+ans:-
+Parenthese ()
+Exponent **
+Multiplication/division *%
+add/sub +-
+
+12. How to sort elements in list
+>> [5,11,14,7,8,3,2,5,9]
+ans:- 
+data=[5,11,14,7,8,3,2,5,9]
+print(sorted(data))
+
+13. What is Dictionary
+ans:- dictionary is collection of keys value
+
+14.  How many methods to create dictionary? 
+ans:- 3
+
+15. How many methods to access value in dictionary? 
+ans:- 2
+
+16. How many methods to delete elements in dictionary?
+ans:- 4
+
+17. How to perform mathematical operations in sets write method name?
+ans:- netsted method
+ 
+18. What is packing variable in tuple? Explain using example? 
+ans:-
+stored many value in single tuple by using (,)
+ex. data = "Hello", "apple", 20 
+print(data)
+
+19. What is unpacking variables in tuple? Explain using example? 
+ans:-
+unpacking is use to crate tuple to variable
+ex. data = "Hello", "apple", 20
+print(data)
+name,friut,number = data
+print(name)
+print(fruit)
+print(number)
+
+20. Difference between sets and dictionary?
+ans:-
+sets:-
+syntax{}
+not supported duplicate value
+unorderd value are store
+not accessing keys
+
+dictionary:-
+syntax dict()
+support duplicate value
+data store in key and value
+accessing key or get
