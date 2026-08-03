@@ -1,0 +1,2 @@
+Studetn ID|Studetn Name|Student Age|Studetn Course|Student Marks|
+---------------------------------------------1|Nitesh|50|Computer|84.0|
